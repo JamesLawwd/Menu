@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+
+:root
+{
+    --black: #333;
+    --light-color: #cdaa7c;
+    --box-shadow: 0 .5rem rgba(0,0,0.1);
+}
+
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.heading
+{
+    text-align: center;
+    color: var(--light-color);
+    font-size: 4.5rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    background: var(--black);
+    display: inline-block;
+
+}
+.sub-heading
+{
+    text-align: center;
+    color: var(--light-color);
+    font-size: 2.5rem;
+    padding: .5rem 2rem;
+}
+
+
+
+/* our-menu style start */
+.our-menu
+{
+    background: url() left top no-repeat, url(img/pls1.jpeg);
+}
+.item-menu{
+    font-size: 3rem;
+    color: #f4ba1bf1;
+
+}
+
+.our-menu .menu-container
+{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50rem,2fr));
+    gap: 5rem 10rem;
+}
+
+.our-menu .menu-container .item .item-name
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top: .5rem;
+
+}
+
+.our-menu .menu-container .item .item-name h2
+{
+    font-size: 3rem;
+    color: #e5e5e5;
+    font-weight: 300;
+
+}
+
+.our-menu .menu-container .item .item-menu h3
+{
+    font-size: 2rem;
+    color: #e5e5e5;
+    font-weight: 200;
+    display: inline-block;
+}
+
+.our-menu .menu-container .item .item-menu span
+{
+    width: 37%;
+    display: inline-block;
+    border: 1px dotted #e5e5e5;
+}
+.our-menu .menu-container .item .item-menu ul
+{
+    display: flex;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: .8rem ;
+    font-weight: 200;
+
+}
+.our-menu .menu-container .item .item-menu ul li a
+{
+    color: #b9b9b9;
+}
+p{
+    font-size: 1.5rem !important; 
+    color:#e5e5e5;
+    font-weight: 200;
+    font-style: italic all linear;
+
+}
